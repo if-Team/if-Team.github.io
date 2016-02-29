@@ -1,4 +1,4 @@
 console.log("Hello, if-Team!");
-$(document).ready(function(){
+$(document).ready(function () {
     $('.parallax').parallax();
 });

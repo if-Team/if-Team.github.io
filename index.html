@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>if-Team</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
         <meta property="og:title" content="if-Team">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://iftm.xyz">
@@ -16,25 +16,73 @@
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo grey-text text-darken-3">if-Team</a>
                 <ul class="right hide-on-med-and-down">
+                    <!-- TODO scrollspy -->
+                    <li><a class="grey-text text-darken-3" href="#description">Description</a></li>
+                    <li><a class="grey-text text-darken-3" href="#projects">Projects</a></li>
                     <li><a class="grey-text text-darken-3" href="https://github.com/if-Team">GitHub</a></li>
                 </ul>
             </div>
         </nav>
 
         <main class="document-main">
-            <h1>if-Team</h1>
-            <section id="description" class="document-section">
-                <h3>Description</h3>
-                <p class="grey-text text-darken-4">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor massa a ultricies ultricies. Mauris convallis risus sit amet luctus egestas. Quisque sagittis feugiat dolor, at auctor ante maximus sed.
-                </p>
+            <div class="document-section-wrapper">
+                <h1>if-Team</h1>
+            </div>
+
+            <section id="description" class="document-section grey darken-4">
+                <div class="grey-text text-lighten-4 document-section-wrapper">
+                    <h3>Description</h3>
+                    <p>
+    					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porttitor massa a ultricies ultricies. Mauris convallis risus sit amet luctus egestas. Quisque sagittis feugiat dolor, at auctor ante maximus sed.
+                    </p>
+                </div>
             </section>
 
             <section id="projects" class="document-section">
-                <h3>Projects</h3>
-                <p class="grey-text text-darken-4">
-                    <a href="https://namu.wiki/w/그런%20거%20없다" target="_blank">그런 거 없다</a>
-                </p>
+                <div class="document-section-wrapper">
+                    <h3>Projects</h3>
+                    <p class="grey-text text-darken-4">
+                        <a href="https://namu.wiki/w/그런%20거%20없다" target="_blank">그런 거 없다</a>
+                    </p>
+                </div>
+            </section>
+
+            <section id="members" class="document-section">
+                <div class="document-section-wrapper">
+                    <h3>Members</h3>
+                    <ul>
+                        <li class="member">
+                            <img src="https://avatars2.githubusercontent.com/u/9481405?v=3&s=50" class="circle responsive-img">
+                            <div class="member-wrapper">
+                                <span class="member title">JokePE</span>
+                                <span class="member github"><a href="https://github.com/ChalkPE">@ChalkPE</a></span>
+                                <span class="member grade">Team Leader</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="member">
+                            <img src="https://avatars2.githubusercontent.com/u/9481405?v=3&s=50" class="circle responsive-img">
+                            <div class="member-wrapper">
+                                <span class="member title">JokePE</span>
+                                <span class="member github"><a href="https://github.com/ChalkPE">@ChalkPE</a></span>
+                                <span class="member grade">Team Leader</span>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li class="member">
+                            <img src="https://avatars2.githubusercontent.com/u/9481405?v=3&s=50" class="circle responsive-img">
+                            <div class="member-wrapper">
+                                <span class="member title">JokePE</span>
+                                <span class="member github"><a href="https://github.com/ChalkPE">@ChalkPE</a></span>
+                                <span class="member grade">Team Leader</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
 
@@ -66,6 +114,8 @@
 
         <script charset="utf-8" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
         <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
+        <script src="https://fb.me/react-0.14.7.js" integrity="sha384-xQae1pUPdAKUe0u0KUTNt09zzdwheX4VSUsV8vatqM+t6X7rta01qOzessL808ox" crossorigin="anonymous"></script>
+        <script src="https://fb.me/react-dom-0.14.7.js" integrity="sha384-A1t0GCrR06cTHvMjaxeSE8XOiz6j7NvWdmxhN/9z748wEvJTVk13Rr8gMzTUnd8G" crossorigin="anonymous"></script>
         <script charset="utf-8" src="resources/src/index.js"></script>
         <script charset="utf-8" src="resources/src/analytics.js" ></script>
     </body>

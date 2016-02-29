@@ -7,13 +7,34 @@ body {
 }
 
 main {
-    max-width: 991px;
-    margin: 0 auto;
     flex: 1 0 auto;
 }
 
-.document-main {
-    padding: 10px 0 0 10px;
+.document-section {
+    padding: 100px 0;
+}
+
+.document-section-wrapper {
+    max-width: 991px;
+    margin: 0 auto;
+}
+
+.member {
+    display: block;
+}
+
+.member-wrapper {
+    display: inline-block;
+}
+
+.member.title {
+    font-size: 1.3rem;
+}
+
+.member.github, .member.grade {
+    display: inline;
+    font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 
 * {

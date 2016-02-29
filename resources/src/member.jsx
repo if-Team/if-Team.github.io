@@ -1,7 +1,7 @@
 var Member = React.createClass({
     propTypes: {
         name: React.PropTypes.string.isRequired,
-        githubid: React.PropTypes.number.isRequired,
+        githubid: React.PropTypes.string.isRequired,
         github: React.PropTypes.string.isRequired,
         grade: React.PropTypes.string.isRequired
     },
@@ -37,7 +37,6 @@ var MemberList = React.createClass({
                     <Member name="원본 (jyc0410)" github="onebone" githubid="3233503" grade="M.K STAFF"/>
                     <Member name="조합자 (twjun0212)" github="" githubid="9780129" grade=""/>
                     <Member name="하나린 (canghaun)" github="Hanarin" githubid="6566972" grade="M.K STAFF"/>
-
                 </ul>
     }
 });

@@ -5,7 +5,7 @@ var Member = React.createClass({
 
     propTypes: {
         name: React.PropTypes.string.isRequired,
-        githubid: React.PropTypes.number.isRequired,
+        githubid: React.PropTypes.string.isRequired,
         github: React.PropTypes.string.isRequired,
         grade: React.PropTypes.string.isRequired
     },

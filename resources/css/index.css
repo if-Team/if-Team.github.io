@@ -38,7 +38,7 @@ main {
 }
 
 .member.chip {
-    margin: 8px;
+    margin: 5px;
 }
 
 .member:not(:first-of-type):not(:empty) {

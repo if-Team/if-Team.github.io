@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>if-Team</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
         <meta property="og:title" content="if-Team">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://iftm.xyz">
@@ -17,6 +17,9 @@
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo grey-text text-darken-3">if-Team</a>
                 <ul class="right hide-on-med-and-down">
+                    <!-- TODO scrollspy -->
+                    <li><a class="grey-text text-darken-3" href="#description">Description</a></li>
+                    <li><a class="grey-text text-darken-3" href="#projects">Projects</a></li>
                     <li><a class="grey-text text-darken-3" href="https://github.com/if-Team">GitHub</a></li>
                 </ul>
             </div>
@@ -62,11 +65,33 @@
                         </div>
                     </div>
                 </section>
+            </div>
+
+            <!--<div class="parallax-container">
+                <div class="parallax">
+                    <img src="resources/img/mk_logo.png" alt="MK Logo Image">
+                </div>
+            </div>-->
+
+            <div class="container center contents">
+                <h3>Description</h3>
+                <section class="section" id="description">
+                    <p class="grey-text text-darken-4">
+    					 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sollicitudin nec diam id pharetra. Proin et feugiat magna. Curabitur tincidunt risus eget tempor euismod. Nam pretium sit amet ligula a fermentum. Donec quis tellus in ante imperdiet accumsan id sed tortor. In interdum venenatis est sed pulvinar. Nam et mauris lacinia, maximus tortor quis, euismod elit. Curabitur vel lacus eu nunc sagittis lobortis. Mauris odio nisi, condimentum eu nisl in, vulputate scelerisque diam. Nunc convallis tincidunt gravida. Nam ornare sem nec rhoncus tempor. In quis dolor ut dui venenatis vestibulum. Aenean interdum ut eros nec hendrerit. Aliquam fringilla finibus accumsan.
+                    </p>
+                </section>
 
                 <h3>Projects</h3>
                 <section class="section" id="projects">
                     <a class="waves-effect waves-light btn-large" href="recruit/index.html"><i class="material-icons left">input</i>2016 Q2 Recruitment</a>
                     <p><a class="white-text"href="https://namu.wiki/w/그런%20거%20없다" target="_blank">그런 거 없다</a></p>
+                </section>
+
+                <h3>Members</h3>
+                <section id="members" class="document-section">
+                    <div class="document-section-wrapper">
+                        <div id="members-view"></div>
+                    </div>
                 </section>
             </div>
         </main>
@@ -98,9 +123,12 @@
         </footer>
 
         <script charset="utf-8" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+        <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react.min.js"></script>
+        <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.7/react-dom.min.js"></script>
         <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
         <script charset="utf-8" src="https://cdn.rawgit.com/jnicol/particleground/master/jquery.particleground.min.js"></script>
         <script charset="utf-8" src="resources/src/index.js"></script>
         <script charset="utf-8" src="resources/src/analytics.js"></script>
+        <script charset="utf-8" src="resources/build/member.js"></script>
     </body>
 </html>

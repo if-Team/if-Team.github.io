@@ -1,11 +1,10 @@
 "use strict";
 
-console.log("Hello, if-Team!");
 $(document).ready(function () {
     $('.parallax').parallax();
     $('#particles').particleground({
-        dotColor: '#eee',
-        lineColor: '#eee',
-        density: 7000
+        dotColor: '#ddd',
+        lineColor: '#ddd',
+        density: 6500
     });
 });

@@ -13,7 +13,7 @@ var Member = React.createClass({
         return <div className="member chip">
             <img src={this.props.githubId ? `https://avatars2.githubusercontent.com/u/${this.props.githubId}?v=3&s=50` : `resources/img/mk_icon.png`} />
             <span className="member title tooltipped" data-position="bottom" data-delay="50" data-tooltip={this.props.naverId}>{this.props.naver}</span>
-            <span className="member github"><a href={'https://github.com/' + this.props.githubId}>{this.props.github && ('@' + this.props.github)}</a></span>
+            <span className="member github"><a href={'https://github.com/' + this.props.github}>{this.props.github && ('@' + this.props.github)}</a></span>
             <span className="member grade light-blue-text text-darken-3">{this.props.grade}</span>
         </div>;
     }

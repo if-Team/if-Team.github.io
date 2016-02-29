@@ -28,7 +28,7 @@ var Member = React.createClass({
                 { className: "member github" },
                 React.createElement(
                     "a",
-                    { href: 'https://github.com/' + this.props.githubId },
+                    { href: 'https://github.com/' + this.props.github },
                     this.props.github && '@' + this.props.github
                 )
             ),

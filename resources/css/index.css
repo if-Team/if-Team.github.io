@@ -1,9 +1,36 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic);
+
+html {
+    font-family: 'Ubuntu', 'Roboto', 'Noto Sans KR', sans-serif;
+}
+
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 main {
-  flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.brand-logo {
+    font-weight: 500;
+}
+
+.parallax-container .valign {
+    width: 100%;
+}
+
+.parallax-container .brand-logo {
+    margin-bottom: 0;
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
 }

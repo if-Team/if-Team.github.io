@@ -48,3 +48,31 @@ main {
 .member.github, .member.grade {
     display: inline;
 }
+
+.header-actions {
+    float: right
+}
+
+.header-actions a {
+    display: inline-block;
+    color: #666;
+    height: 37px;
+    line-height: 37px;
+    margin-left: 20px
+}
+
+.header-actions a:hover {
+    text-decoration: none;
+    color: #4183c4
+}
+
+.header-actions .octicon-mark-github {
+    font-size: 22px
+}
+
+.white-text .octicon-mark-github {
+    font-size: 22px
+}
+.white-text .octicon-organization{
+    font-size: 22px
+}

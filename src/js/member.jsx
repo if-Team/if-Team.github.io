@@ -22,21 +22,21 @@ var Member = React.createClass({
 var MemberList = React.createClass({
     render: function(){
         return <ul className="members">
-            <Member naverId="amato17"      github="ChalkPE"       githubId="9481405"  grade="Leader" naver="ChalkPE" />
-            <Member naverId="lwh8762"      github="CirclePE"      githubId="10684388" grade=""      naver="Circle" />
-            <Member naverId="ska827"       github="cr0sh"         githubId="13118114" grade=""      naver="Cr0sh" />
-            <Member naverId="angello10"    github="angello10"     githubId="9531062"  grade=""      naver="Dark" />
-            <Member naverId="deu07115"     github="HelloWorld017" githubId="3919433"  grade=""      naver="Khinenw" />
-            <Member naverId="woni8708"     github="Khoneki"       githubId="9482404"  grade=""      naver="Khoneki" />
-            <Member naverId="b_science"    github="Semteul"       githubId="6727533"  grade="Staff" naver="SemteulGaram" />
-            <Member naverId="hmkuak"       github="HmHmmHm"       githubId="8337568"  grade="Staff" naver="hm" />
-            <Member naverId="nno88551"     github="milk0417"      githubId="9590938"  grade=""      naver="SW승원" />
-            <Member naverId="cksdid726"    github="You726"        githubId="5254268"  grade=""      naver="You" />
-            <Member naverId="enenwld80605" github="Duduzzing"     githubId="10470392" grade=""      naver="두두찡" />
-            <Member naverId="ehddnjs9719"  github="BloodType-AB"  githubId="11348711" grade="Staff" naver="멸종위기의 AB형" />
-            <Member naverId="jyc0410"      github="onebone"       githubId="3233503"  grade="Staff" naver="원본" />
-            <Member naverId="twjun0212"    github=""              githubId=""         grade=""      naver="조합자" />
-            <Member naverId="canghaun"     github="Hanarin"       githubId="6566972"  grade="Staff" naver="하나린" />
+            <Member github="ChalkPE"       githubId="9481405"  grade="Leader" naverId="amato17"      naver="Chalk" />
+            <Member github="CirclePE"      githubId="10684388" grade=""       naverId="lwh8762"      naver="Circle" />
+            <Member github="cr0sh"         githubId="13118114" grade=""       naverId="ska827"       naver="Cr0sh" />
+            <Member github="angello10"     githubId="9531062"  grade=""       naverId="angello10"    naver="Dark" />
+            <Member github="HelloWorld017" githubId="3919433"  grade=""       naverId="deu07115"     naver="Khinenw" />
+            <Member github="Khoneki"       githubId="9482404"  grade=""       naverId="woni8708"     naver="Khoneki" />
+            <Member github="Semteul"       githubId="6727533"  grade="Staff"  naverId="b_science"    naver="SemteulGaram" />
+            <Member github="HmHmmHm"       githubId="8337568"  grade="Staff"  naverId="hmkuak"       naver="hm" />
+            <Member github="milk0417"      githubId="9590938"  grade=""       naverId="nno88551"     naver="SW승원" />
+            <Member github="You726"        githubId="5254268"  grade=""       naverId="cksdid726"    naver="You" />
+            <Member github="Duduzzing"     githubId="10470392" grade=""       naverId="enenwld80605" naver="두두찡" />
+            <Member github="BloodType-AB"  githubId="11348711" grade="Staff"  naverId="ehddnjs9719"  naver="멸종위기의 AB형" />
+            <Member github="onebone"       githubId="3233503"  grade="Staff"  naverId="jyc0410"      naver="원본" />
+            <Member github=""              githubId=""         grade=""       naverId="twjun0212"    naver="조합자" />
+            <Member github="Hanarin"       githubId="6566972"  grade="Staff"  naverId="canghaun"     naver="하나린" />
         </ul>;
     }
 });

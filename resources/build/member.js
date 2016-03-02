@@ -54,6 +54,7 @@ var MemberList = React.createClass({
             React.createElement(Member, { naverId: "angello10", github: "angello10", githubId: "9531062", grade: "", naver: "Dark" }),
             React.createElement(Member, { naverId: "deu07115", github: "HelloWorld017", githubId: "3919433", grade: "", naver: "Khinenw" }),
             React.createElement(Member, { naverId: "woni8708", github: "Khoneki", githubId: "9482404", grade: "", naver: "Khoneki" }),
+            React.createElement(Member, { naverId: "yale2a1", github: "MuhunKim", githubId: "5278201", grade: "", naver: "BetaFish" }),
             React.createElement(Member, { naverId: "b_science", github: "Semteul", githubId: "6727533", grade: "Staff", naver: "SemteulGaram" }),
             React.createElement(Member, { naverId: "hmkuak", github: "HmHmmHm", githubId: "8337568", grade: "Staff", naver: "hm" }),
             React.createElement(Member, { naverId: "nno88551", github: "milk0417", githubId: "9590938", grade: "", naver: "SW승원" }),

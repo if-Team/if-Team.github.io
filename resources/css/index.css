@@ -69,3 +69,9 @@ main {
 .header-actions .octicon-mark-github {
     font-size: 22px
 }
+
+.footer-copyright .container .white-text .octicon-logo-github {
+    font-size: 22px;
+    line-height: 40px;
+    color: whitesmoke
+}

@@ -1,0 +1,3 @@
+[submodule "resources/css/octicons"]
+	path = resources/css/octicons
+	url = https://github.com/github/octicons.git

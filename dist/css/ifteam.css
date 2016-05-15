@@ -1,0 +1,65 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic);
+html {
+  font-family: 'Ubuntu', 'Roboto', 'Noto Sans KR', sans-serif;
+}
+body {
+  min-height: 100vh;
+}
+main {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+#contents {
+  text-align: left;
+}
+.brand-logo {
+  font-weight: 500;
+}
+.parallax-container .valign {
+  width: 100%;
+}
+.parallax-container .brand-logo {
+  margin-bottom: 0;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+.member.chip {
+  margin: 5px;
+}
+.member:not(:first-of-type):not(:empty) {
+  margin-left: 4px;
+}
+.member.github,
+.member.grade {
+  display: inline;
+}
+.header-actions {
+  float: right;
+}
+.header-actions a {
+  display: inline-block;
+  color: #666;
+  height: 37px;
+  line-height: 37px;
+  margin-left: 20px;
+}
+.header-actions a:hover {
+  text-decoration: none;
+  color: #4183c4;
+}
+.header-actions .octicon-mark-github {
+  font-size: 22px;
+}
+.footer-copyright .container .white-text .octicon-logo-github {
+  font-size: 22px;
+  line-height: 40px;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=ifteam.css.map */

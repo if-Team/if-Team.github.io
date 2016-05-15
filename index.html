@@ -7,21 +7,24 @@
         <meta property="og:title" content="if-Team">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://iftm.xyz">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
         <link rel="stylesheet" charset="utf-8" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
         <link rel="stylesheet" charset="utf-8" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
         <link rel="stylesheet" charset="utf-8" href="resources/css/index.css" media="screen">
+        <link rel="stylesheet" charset="utf-8" href="resources/css/octicons/octicons/octicons.css">
     </head>
 
     <body>
         <nav class="white" role="navigation">
             <div class="nav-wrapper container">
                 <a href="#" class="brand-logo grey-text text-darken-3">if-Team</a>
-                <ul class="right hide-on-med-and-down">
+                <span class="right hide-on-med-and-down header-actions">
                     <!-- TODO scrollspy -->
-                    <li><a class="grey-text text-darken-3" href="#description">Description</a></li>
-                    <li><a class="grey-text text-darken-3" href="#projects">Projects</a></li>
-                    <li><a class="grey-text text-darken-3" href="https://github.com/if-Team">GitHub</a></li>
-                </ul>
+                    <a class="grey-text text-darken-3" href="#sectors">Description</a>
+                    <a class="grey-text text-darken-3" href="#projects">Projects</a>
+                    <a class="octicon octicon-mark-github" href="https://github.com/if-Team"></a>
+                </span>
             </div>
         </nav>
 
@@ -115,7 +118,10 @@
             <div class="footer-copyright">
                 <div class="container">
                     &copy; 2014-2016 if-Team
-                    <a class="grey-text text-lighten-4 right" href="https://github.com/if-Team/if-Team.github.io">View on GitHub</a>
+                    <div class="right">
+                    <a class="white-text">View on</a>
+                    <a class="octicon octicon-logo-github white-text" href="https://github.com/if-Team/if-Team.github.io"></a>
+                    </div>
                 </div>
             </div>
         </footer>

@@ -23,7 +23,7 @@ var MemberList = React.createClass({
     render: function(){
         return <ul className="members">
             <Member naverId="yale2a1"      github="MuhunKim"      githubId="5278201"  grade=""      naver="BetaFish" />
-            <Member naverId="amato17"      github="ChalkPE"       githubId="9481405"  grade="Leader"naver="ChalkPE" />
+            <Member naverId="amato17"      github="ChalkPE"       githubId="9481405"  grade="Leader" naver="ChalkPE" />
             <Member naverId="lwh8762"      github="CirclePE"      githubId="10684388" grade=""      naver="Circle" />
             <Member naverId="ska827"       github="cr0sh"         githubId="13118114" grade=""      naver="Cr0sh" />
             <Member naverId="sct2001"      github="HailCryptic"   githubId="19639378" grade=""      naver="cryptic" />

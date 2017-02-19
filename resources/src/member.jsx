@@ -37,7 +37,6 @@ var MemberList = React.createClass({
             <Member naverId="woni8708"     github="Khoneki"       githubId="9482404"  grade=""       naver="Khoneki" />
             <Member naverId="b_science"    github="Semteul"       githubId="6727533"  grade="Staff"  naver="SemteulGaram" />
             <Member naverId="nno88551"     github="milk0417"      githubId="9590938"  grade=""       naver="SW승원" />
-            <Member naverId="cksdid726"    github="You726"        githubId="5254268"
             <Member naverId="boomingsky"   github="ManDongI"      githubId="12479184" grade=""       naver="만동이" />
             <Member naverId="ehddnjs9719"  github="BloodType-AB"  githubId="11348711" grade="Staff"  naver="멸종위기의 AB형" />
             <Member naverId="canghaun"     github="Hanarin"       githubId="6566972"  grade="Staff"  naver="하나린" />

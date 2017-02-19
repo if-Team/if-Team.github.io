@@ -23,7 +23,7 @@ var MemberList = React.createClass({
     render: function(){
         return <ul className="members">
             <Member naverId="yale2a1"      github="MuhunKim"      githubId="5278201"  grade=""       naver="BetaFish" />
-            <Member naverId="amato17"      github="ChalkPE"       githubId="9481405"  grade="Leader" naver="ChalkPE" />
+            <Member naverId="amato17"      github="ChalkPE"       githubId="9481405"  grade="Staff" naver="ChalkPE" />
             <Member naverId="lwh8762"      github="CirclePE"      githubId="10684388" grade=""       naver="Circle" />
             <Member naverId="ska827"       github="cr0sh"         githubId="13118114" grade=""       naver="Cr0sh" />
             <Member naverId="sct2001"      github="HailCryptic"   githubId="19639378" grade=""       naver="cryptic" />
@@ -40,7 +40,7 @@ var MemberList = React.createClass({
             <Member naverId="enenwld80605" github="Duduzzing"     githubId="10470392" grade=""       naver="두두찡" />
             <Member naverId="boomingsky"   github="ManDongI"      githubId="12479184" grade=""       naver="만동이" />
             <Member naverId="ehddnjs9719"  github="BloodType-AB"  githubId="11348711" grade="Staff"  naver="멸종위기의 AB형" />
-            <Member naverId="jyc0410"      github="onebone"       githubId="3233503"  grade="Staff"  naver="원본" />
+            <Member naverId="jyc0410"      github="onebone"       githubId="3233503"  grade="Leader"  naver="원본" />
             <Member naverId="canghaun"     github="Hanarin"       githubId="6566972"  grade="Staff"  naver="하나린" />
         </ul>;
     }

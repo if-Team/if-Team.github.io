@@ -25,12 +25,12 @@ var MemberList = React.createClass({
             <Member naverId="jyc0410"      github="onebone"       githubId="3233503"  grade="Leader"  naver="원본" />
             <Member naverId="yale2a1"      github="MuhunKim"      githubId="5278201"  grade=""       naver="BetaFish" />
             <Member naverId="amato17"      github="ChalkPE"       githubId="9481405"  grade="Staff" naver="ChalkPE" />
-            <Member naverId="lwh8762"      github="lwhgit"      githubId="10684388" grade=""       naver="Circle" />
+            <Member naverId="lwh8762"      github="lwhgit"        githubId="10684388" grade=""       naver="Circle" />
             <Member naverId="ska827"       github="cr0sh"         githubId="13118114" grade=""       naver="Cr0sh" />
             <Member naverId="sct2001"      github="HailCryptic"   githubId="19639378" grade=""       naver="cryptic" />
             <Member naverId="110EIm"       github="110EIm"        githubId="13712304" grade=""       naver="물외한인" />
             <Member naverId="angello10"    github="angello10"     githubId="9531062"  grade=""       naver="Dark" />
-            <Member naverId="hustlerhlk"   github="HyeonjaeKim"         githubId="13284800" grade=""       naver="DeBe" />
+            <Member naverId="hustlerhlk"   github="HyeonjaeKim"   githubId="13284800" grade=""       naver="DeBe" />
             <Member naverId="gptj1224"     github="Flaplim"       githubId="6704921"  grade=""       naver="Flaplim" />
             <Member naverId="hmkuak"       github="HmHmmHm"       githubId="8337568"  grade="Staff"  naver="hm" />
             <Member naverId="deu07115"     github="HelloWorld017" githubId="3919433"  grade=""       naver="Khinenw" />

@@ -30,7 +30,7 @@ var MemberList = React.createClass({
             <Member naverId="sct2001"      github="HailCryptic"   githubId="19639378" grade=""       naver="cryptic" />
             <Member naverId="110EIm"       github="110EIm"        githubId="13712304" grade=""       naver="물외한인" />
             <Member naverId="angello10"    github="angello10"     githubId="9531062"  grade=""       naver="Dark" />
-            <Member naverId="hustlerhlk"   github="DeBe0"         githubId="13284800" grade=""       naver="DeBe" />
+            <Member naverId="hustlerhlk"   github="HyeonjaeKim"         githubId="13284800" grade=""       naver="DeBe" />
             <Member naverId="gptj1224"     github="Flaplim"       githubId="6704921"  grade=""       naver="Flaplim" />
             <Member naverId="hmkuak"       github="HmHmmHm"       githubId="8337568"  grade="Staff"  naver="hm" />
             <Member naverId="deu07115"     github="HelloWorld017" githubId="3919433"  grade=""       naver="Khinenw" />

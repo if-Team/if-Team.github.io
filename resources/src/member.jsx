@@ -22,23 +22,22 @@ var Member = React.createClass({
 var MemberList = React.createClass({
     render: function(){
         return <ul className="members">
-            <Member naverId="jyc0410"      github="onebone"       githubId="3233503"  grade="Leader"  naver="원본" />
-            <Member naverId="amato17"      github="ChalkPE"       githubId="9481405"  grade="Staff" naver="ChalkPE" />
-            <Member naverId="lwh8762"      github="lwhgit"        githubId="10684388" grade=""       naver="Circle" />
-            <Member naverId="ska827"       github="cr0sh"         githubId="13118114" grade=""       naver="Cr0sh" />
-            <Member naverId="sct2001"      github="HailCryptic"   githubId="19639378" grade=""       naver="cryptic" />
-            <Member naverId="110EIm"       github="110EIm"        githubId="13712304" grade=""       naver="물외한인" />
-            <Member naverId="angello10"    github="angello10"     githubId="9531062"  grade=""       naver="Dark" />
-            <Member naverId="hustlerhlk"   github="HyeonjaeKim"   githubId="13284800" grade=""       naver="DeBe" />
-            <Member naverId="gptj1224"     github="Flaplim"       githubId="6704921"  grade=""       naver="Flaplim" />
-            <Member naverId="hmkuak"       github="HmHmmHm"       githubId="8337568"  grade="Staff"  naver="hm" />
-            <Member naverId="deu07115"     github="HelloWorld017" githubId="3919433"  grade=""       naver="Khinenw" />
-            <Member naverId="woni8708"     github="Khoneki"       githubId="9482404"  grade=""       naver="Khoneki" />
-            <Member naverId="b_science"    github="Semteul"       githubId="6727533"  grade="Staff"  naver="SemteulGaram" />
-            <Member naverId="nno88551"     github="milk0417"      githubId="9590938"  grade=""       naver="SW승원" />
-            <Member naverId="boomingsky"   github="ManDongI"      githubId="12479184" grade=""       naver="만동이" />
-            <Member naverId="ehddnjs9719"  github="BloodType-AB"  githubId="11348711" grade="Staff"  naver="멸종위기의 AB형" />
-            <Member naverId="canghaun"     github="Hanarin"       githubId="6566972"  grade="Staff"  naver="하나린" />
+            <Member grade="Leader" github="onebone"       githubId="3233503"   naver="원본"            naverId="jyc0410"     />
+            <Member grade="Staff"  github="ChalkPE"       githubId="9481405"   naver="ChalkPE"         naverId="amato17"     />
+            <Member grade="Staff"  github="SemteulGaram"  githubId="6727533"   naver="SemteulGaram"    naverId="b_science"   />
+            <Member grade="Staff"  github="BloodType-AB"  githubId="11348711"  naver="멸종위기의 AB형" naverId="ehddnjs9719" />
+            <Member grade="Staff"  github="Hanarin"       githubId="6566972"   naver="하나린"          naverId="canghaun"    />
+            <Member grade=""       github="a1p4ca"        githubId="13712304"  naver="물외한인"        naverId="110EIm"      />
+            <Member grade=""       github="angello10"     githubId="9531062"   naver="Dark"            naverId="angello10"   />
+            <Member grade=""       github="BetaF1sh"      githubId="5278201"   naver="BetaFish"        naverId="yale2a1"     />
+            <Member grade=""       github="cr0sh"         githubId="13118114"  naver="Cr0sh"           naverId="ska827"      />
+            <Member grade=""       github="Flaplim"       githubId="6704921"   naver="Flaplim"         naverId="gptj1224"    />
+            <Member grade=""       github="HailCryptic"   githubId="19639378"  naver="cryptic"         naverId="sct2001"     />
+            <Member grade=""       github="HelloWorld017" githubId="3919433"   naver="Khinenw"         naverId="deu07115"    />
+            <Member grade=""       github="Khoneki"       githubId="9482404"   naver="Khoneki"         naverId="woni8708"    />
+            <Member grade=""       github="lwhgit"        githubId="10684388"  naver="Circle"          naverId="lwh8762"     />
+            <Member grade=""       github="milk0417"      githubId="9590938"   naver="SW승원"          naverId="nno88551"    />
+            <Member grade=""       github="PresentKim"    githubId="13284800"  naver="PresentKim"      naverId="hustlerhlk"  />
         </ul>;
     }
 });

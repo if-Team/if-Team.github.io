@@ -23,12 +23,13 @@ var MemberList = React.createClass({
     render: function(){
         return <ul className="members">
             <Member grade="Leader" github="onebone"       githubId="3233503"   naver="원본"            naverId="jyc0410"     />
+            <Member grade=""       github="BetaF1sh"      githubId="5278201"   naver="BetaFish"        naverId="yale2a1"     />
             <Member grade="Staff"  github="ChalkPE"       githubId="9481405"   naver="ChalkPE"         naverId="amato17"     />
             <Member grade="Staff"  github="SemteulGaram"  githubId="6727533"   naver="SemteulGaram"    naverId="b_science"   />
-            <Member grade="Staff"  github="BloodType-AB"  githubId="11348711"  naver="멸종위기의 AB형" naverId="ehddnjs9719" />
+            <Member grade="Staff"  github="BloodType-AB"  githubId="11348711"  naver="멸종위기의 AB형"  naverId="ehddnjs9719"  />
             <Member grade="Staff"  github="Hanarin"       githubId="6566972"   naver="하나린"          naverId="canghaun"    />
             <Member grade=""       github="a1p4ca"        githubId="13712304"  naver="물외한인"        naverId="110EIm"      />
-            <Member grade=""       github="angello10"     githubId="9531062"   naver="Dark"            naverId="angello10"   />
+            <Member grade=""       github="angello10"     githubId="9531062"   naver="Dark"           naverId="angello10"   />
             <Member grade=""       github="BetaF1sh"      githubId="5278201"   naver="BetaFish"        naverId="yale2a1"     />
             <Member grade=""       github="cr0sh"         githubId="13118114"  naver="Cr0sh"           naverId="ska827"      />
             <Member grade=""       github="Flaplim"       githubId="6704921"   naver="Flaplim"         naverId="gptj1224"    />

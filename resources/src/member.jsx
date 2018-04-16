@@ -37,7 +37,7 @@ var MemberList = React.createClass({
             <Member grade=""       github="Khoneki"       githubId="9482404"   naver="Khoneki"         naverId="woni8708"    />
             <Member grade=""       github="lwhgit"        githubId="10684388"  naver="Circle"          naverId="lwh8762"     />
             <Member grade=""       github="milk0417"      githubId="9590938"   naver="SW승원"          naverId="nno88551"    />
-            <Member grade=""       github="PresentKim"    githubId="13284800"  naver="PresentKim"      naverId="hustlerhlk"  />
+            <Member grade=""       github="PresentKim"    githubId="13284800"  naver="PresentKim"      naverId="huu6677"     />
         </ul>;
     }
 });

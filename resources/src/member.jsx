@@ -38,6 +38,7 @@ var MemberList = React.createClass({
             <Member grade=""       github="lwhgit"        githubId="10684388"  naver="Circle"          naverId="lwh8762"     />
             <Member grade=""       github="milk0417"      githubId="9590938"   naver="SW승원"          naverId="nno88551"    />
             <Member grade=""       github="PresentKim"    githubId="13284800"  naver="PresentKim"      naverId="huu6677"     />
+            <Member grade=""       github="hwangseonu"    githubId="30190259"  naver="나무아래"      naverId="hwangseonu12"     />
         </ul>;
     }
 });
